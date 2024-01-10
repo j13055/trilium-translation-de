@@ -31,15 +31,15 @@ REPO_NAME = 'zadam/trilium'
 
 # 是否从GitHub下载文件
 # whether download files from GitHub
-DO_DOWNLOAD = True
-# DO_DOWNLOAD = False
+# DO_DOWNLOAD = True
+DO_DOWNLOAD = False
 
 # 是否删除临时文件
 # whether delete template files
-DO_DELETE = True
+# DO_DELETE = True
 
 
-# DO_DELETE = False
+DO_DELETE = False
 
 
 def requests_get(url):
@@ -349,8 +349,8 @@ if __name__ == '__main__':
     ]:
         exit()
 
-    os.system(f'rm -rf {TRANS_RELEASE_FOLDER}')
-    os.makedirs(f'{TRANS_RELEASE_FOLDER}')
+#    os.system(f'rm -rf {TRANS_RELEASE_FOLDER}')
+#    os.makedirs(f'{TRANS_RELEASE_FOLDER}')
     os.chdir(TRANS_RELEASE_FOLDER)
 
     # 获取更新

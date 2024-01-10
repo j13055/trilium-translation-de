@@ -202,7 +202,7 @@ translation_dict = {
     'Dropdown trigger': '',
     'Delete all revisions of this note': '',
     'Help on Note revisions': '',
-    'Appearance': '',
+    'Appearance': 'Benutzeroberfläche',
     'Keyboard Shortcuts': '',
     'Code Notes': '',
     'Sync': '',
