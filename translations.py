@@ -230,8 +230,7 @@ translation_dict = {
     'Vacuum Database': '',
     'Vacuum database': '',
     'This will rebuild the database which will typically result in a smaller database file. No data will be actually changed.': '',
-    'This action will create a new copy of the database and anonymize it (remove all note content and leave only structure and some non-sensitive metadata)
-        for sharing online for debugging purposes without fear of leaking your personal data.': '',
+    'This action will create a new copy of the database and anonymize it (remove all note content and leave only structure and some non-sensitive metadata) for sharing online for debugging purposes without fear of leaking your personal data.': '',
     'Full sync triggered': '',
     'Sync rows filled successfully': '',
     'Database has been vacuumed': '',
@@ -275,8 +274,7 @@ translation_dict = {
     'Change Password': '',
     'Old password': '',
     'New password': '',
-    'Please take care to remember your new password. Password is used for logging into the web interface and
-      to encrypt protected notes.': '',
+    'Please take care to remember your new password. Password is used for logging into the web interface and to encrypt protected notes.': '',
     'New passwords are not the same.': '',
     'Password has been changed. Trilium will be reloaded after you press OK.': '',
     'Spellcheck': '',
@@ -297,12 +295,8 @@ translation_dict = {
     'Note Revisions Snapshot Interval': '',
     'Note revision snapshot time interval is time in seconds after which a new note revision will be created for the note. See ': '',
     'Note revision snapshot time interval (in seconds)': '',
-    'Deleted notes (and attributes, revisions...) are at first only marked as deleted and it is possible to recover them 
-    from Recent Notes dialog. After a period of time, deleted notes are "erased" which means 
-    their content is not recoverable anymore. This setting allows you to configure the length 
-    of the period between deleting and erasing the note.': '',
-    "Protected session timeout is a time period after which the protected session is wiped from
-        the browser's memory. This is measured from the last interaction with protected notes. See": '',
+    'Deleted notes (and attributes, revisions...) are at first only marked as deleted and it is possible to recover them  from Recent Notes dialog. After a period of time, deleted notes are "erased" which means  their content is not recoverable anymore. This setting allows you to configure the length  of the period between deleting and erasing the note.': '',
+    "Protected session timeout is a time period after which the protected session is wiped from the browser's memory. This is measured from the last interaction with protected notes. See": '',
     'for more info.': '',
     'Changes to the spell check options will take effect after application restart.': '',
     'Options changed have been saved.': '',
@@ -369,14 +363,7 @@ translation_dict = {
     'Search tips': '',
     'also see': '',
     'complete help on search': '',
-    'Just enter any text for full text search</li>
-        <li><code>#abc</code> - returns notes with label abc</li>
-        <li><code>#year = 2019</code> - matches notes with label <code>year</code> having value <code>2019</code></li>
-        <li><code>#rock #pop</code> - matches notes which have both <code>rock</code> and <code>pop</code> labels</li>
-        <li><code>#rock or #pop</code> - only one of the labels must be present</li>
-        <li><code>#year &lt;= 2000</code> - numerical comparison (also &gt;, &gt;=, &lt;).</li>
-        <li><code>note.dateCreated >= MONTH-1</code> - notes created in the last month</li>
-        <li><code>=handler</code> - will execute script defined in <code>handler</code> relation to get results': '',
+    'Just enter any text for full text search</li>\n        <li><code>#abc</code> - returns notes with label abc</li>\n        <li><code>#year = 2019</code> - matches notes with label <code>year</code> having value <code>2019</code></li>\n        <li><code>#rock #pop</code> - matches notes which have both <code>rock</code> and <code>pop</code> labels</li>\n        <li><code>#rock or #pop</code> - only one of the labels must be present</li>\n        <li><code>#year &lt;= 2000</code> - numerical comparison (also &gt;, &gt;=, &lt;).</li>\n        <li><code>note.dateCreated >= MONTH-1</code> - notes created in the last month</li>\n        <li><code>=handler</code> - will execute script defined in <code>handler</code> relation to get results': '输入任意文字进行全文搜索</li>\n                <li><code>#abc</code> - 会返回含有abc标签的笔记</li>\n                <li><code>#year = 2019</code> - <code>year</code>并且值是<code>2019</code>的笔记</li>\n                <li><code>#rock #pop</code> - 会匹配同时含有 <code>rock</code> 和  <code>pop</code> 标签的笔记</li>\n                <li><code>#rock or #pop</code> - 含有其中任意一个标签的笔记</li>\n                <li><code>#year &lt;= 2000</code> - 可以用比较符号(比如 &gt;, &gt;=, &lt;).</li>\n                <li><code>note.dateCreated >= MONTH-1</code> - 上个月创建的笔记</li>\n        <li><code>=handler</code> - 会执行<code>=handler</code>关联的代码来获取结果',
     'Uncaught error:': '',
     'No details available': '',
     'Message:': '',
@@ -520,11 +507,7 @@ translation_dict = {
     'Add new relation': '',
     'Save attributes <enter>': '',
     'Add a new attribute': '',
-    '<p>To add label, just type e.g. <code>#rock</code> or if you want to add also value then e.g. <code>#year = 2020</code></p> 
-
-<p>For relation, type <code>~author = @</code> which should bring up an autocomplete where you can look up the desired note.</p>
-
-<p>Alternatively you can add label and relation using the <code>+</code> button on the right side.</p>': '',
+    '<p>To add label, just type e.g. <code>#rock</code> or if you want to add also value then e.g. <code>#year = 2020</code></p> \n\n<p>For relation, type <code>~author = @</code> which should bring up an autocomplete where you can look up the desired note.</p>\n\n<p>Alternatively you can add label and relation using the <code>+</code> button on the right side.</p>': '<p>要添加标签,只需输入 <code>#rock</code> 或者如果你想设置一个值可以用 <code>#year = 2020</code></p> \n\n<p>添加关系则是类似 <code>~author = @</code>, 自动补全会帮你找到的想要的笔记.</p>\n\n<p>或者可以用右侧的<code>+</code>按钮添加标签和关系.</p>',
     'Calendar': '',
     'January': '',
     'Febuary': '',
@@ -637,7 +620,7 @@ translation_dict = {
     'See this example:': '',
     "Note that search script and search string can't be combined with each other.": '',
     'Search script:': '',
-    "Direction argument given as "${direction}", use either 'row' or 'column'": '',
+    """Direction argument given as "${direction}", use either 'row' or 'column'""": """输入的方向参数为"${direction}", 请使用'row' 或者 'column'""",
     'Open New Window': '',
     'Open Dev Tools': '',
     'Open SQL Console': '',
@@ -693,13 +676,7 @@ translation_dict = {
     'Search syntax': '',
     'complete help on search syntax': '',
     'Search: ': '',
-    'Just enter any text for full text search</li>
-                <li><code>#abc</code> - returns notes with label abc</li>
-                <li><code>#year = 2019</code> - matches notes with label <code>year</code> having value <code>2019</code></li>
-                <li><code>#rock #pop</code> - matches notes which have both <code>rock</code> and <code>pop</code> labels</li>
-                <li><code>#rock or #pop</code> - only one of the labels must be present</li>
-                <li><code>#year &lt;= 2000</code> - numerical comparison (also &gt;, &gt;=, &lt;).</li>
-                <li><code>note.dateCreated >= MONTH-1</code> - notes created in the last month': '',
+    'Just enter any text for full text search</li>\n                <li><code>#abc</code> - returns notes with label abc</li>\n                <li><code>#year = 2019</code> - matches notes with label <code>year</code> having value <code>2019</code></li>\n                <li><code>#rock #pop</code> - matches notes which have both <code>rock</code> and <code>pop</code> labels</li>\n                <li><code>#rock or #pop</code> - only one of the labels must be present</li>\n                <li><code>#year &lt;= 2000</code> - numerical comparison (also &gt;, &gt;=, &lt;).</li>\n                <li><code>note.dateCreated >= MONTH-1</code> - notes created in the last month': '输入任意文字进行全文搜索</li>\n                <li><code>#abc</code> - 会返回含有abc标签的笔记</li>\n                <li><code>#year = 2019</code> - <code>year</code>并且值是<code>2019</code>的笔记</li>\n                <li><code>#rock #pop</code> - 会匹配同时含有 <code>rock</code> 和  <code>pop</code> 标签的笔记</li>\n                <li><code>#rock or #pop</code> - 含有其中任意一个标签的笔记</li>\n                <li><code>#year &lt;= 2000</code> - 可以用比较符号(比如 &gt;, &gt;=, &lt;).</li>\n                <li><code>note.dateCreated >= MONTH-1</code> - 上个月创建的笔记',
     "this.note.title.startsWith('Search: ')": '',
     'fulltext keywords, #tag = value ...': '',
     'Sync status will be known once the next sync attempt starts.': '',
@@ -752,7 +729,7 @@ translation_dict = {
     'Close tab': '',
     'Add new tab': '',
     'New tab': '',
-    "This note of type Book doesn't have any child notes so there's nothing to display. See <a href="https://github.com/zadam/trilium/wiki/Book-note">wiki</a> for details.": '',
+    """This note of type Book doesn't have any child notes so there's nothing to display. See <a href="https://github.com/zadam/trilium/wiki/Book-note">wiki</a> for details.""": '这个类型为"书"的笔记没有任何子笔记, 所以什么也不显示. 详见 <a href="https://github.com/zadam/trilium/wiki/Book-note">wiki</a>.',
     'Type the content of your note here ...': '',
     "Open a note by typing the note's title into the input below or choose a note in the tree.": '',
     'search for a note by its name': '',
@@ -772,7 +749,7 @@ translation_dict = {
     'Enter new note title:': '',
     'Specify new relation name (allowed characters: alphanumeric, colon and underscore):': '',
     'Click on canvas to place new note': '',
-    ""Connection '" + name + "' between these notes already exists."": '',
+    '''"Connection '" + name + "' between these notes already exists."''': '''"这些笔记的连接'" + name + "'已经存在."''',
     'Start dragging relations from here and drop them on another note.': '',
     'Note "${note.title}" is already in the diagram.': '',
     'Cannot match transform: ': '',
@@ -1218,8 +1195,7 @@ translation_dict = {
     'Unprotecting': '',
     'Edit a read-only note': '',
     'Ribbon tabs': '',
-    "`${resp.count} backlink`
-            + (resp.count === 1 ? '' : 's')": '',
+    "`${resp.count} backlink`\n            + (resp.count === 1 ? '' : 's')": "`${resp.count} 个反链`",
     'Password is not set': '',
     'Set password': '',
     'Set Password': '',
@@ -1231,7 +1207,7 @@ translation_dict = {
     'Integrity check succeeded - no problems found.': '',
     'ETAPI': '',
     'ETAPI is a REST API used to access Trilium instance programmatically, without UI.': '',
-    "See more details on <a href="https://github.com/zadam/trilium/wiki/ETAPI">wiki</a> and <a onclick="window.open('etapi/etapi.openapi.yaml')" href="etapi/etapi.openapi.yaml">ETAPI OpenAPI spec</a>.": '',
+    """See more details on <a href="https://github.com/zadam/trilium/wiki/ETAPI">wiki</a> and <a onclick="window.open('etapi/etapi.openapi.yaml')" href="etapi/etapi.openapi.yaml">ETAPI OpenAPI spec</a>.""": """更多信息请访问 <a href="https://github.com/zadam/trilium/wiki/ETAPI">wiki</a> 和 <a onclick="window.open('etapi/etapi.openapi.yaml')" href="etapi/etapi.openapi.yaml">ETAPI OpenAPI 文档</a>.""",
     'Create new ETAPI token': '',
     'Existing tokens': '',
     'There are no tokens yet. Click on the button above to create one.': '',
@@ -1298,8 +1274,7 @@ translation_dict = {
     'Auth request time is out of sync, please check that both client and server have correct time.': '',
     'Non-matching sync versions, local is version ${appInfo.syncVersion}, remote is ${syncVersion}. It is recommended to run same version of Trilium on both sides of sync.': '',
     'Incorrect password': '',
-    'default title of notes created as children of this note. The value is evaluated as JavaScript string 
-                        and thus can be enriched with dynamic content via the injected <code>now</code> and <code>parentNote</code> variables. Examples:': '',
+    'default title of notes created as children of this note. The value is evaluated as JavaScript string and thus can be enriched with dynamic content via the injected <code>now</code> and <code>parentNote</code> variables. Examples:': '',
     "<code>\${parentNote.getLabelValue('authorName')}'s literary works</code>": '',
     "<code>Log for \${now.format('YYYY-MM-DD HH:mm:ss')}</code>": '',
     'See <a href="https://github.com/zadam/trilium/wiki/Default-note-title">wiki with details</a>, API docs for <a href="https://zadam.github.io/trilium/backend_api/Note.html">parentNote</a> and <a href="https://day.js.org/docs/en/display/format">now</a> for details.': '',
@@ -1379,8 +1354,7 @@ translation_dict = {
     'Network Connections': '',
     'Check for updates automatically': '',
     "require credentials to access this shared note. Value is expected to be in format 'username:password'. Don't forget to make this inheritable to apply to child-notes/images.": '',
-    'To be able to protect notes, <a class="open-password-options-button" href="javascript:">
-                    click here to open the Options dialog</a> and set your password.': '',
+    'To be able to protect notes, <a class="open-password-options-button" href="javascript:"> click here to open the Options dialog</a> and set your password.': '',
     'Choose note type / template of the new note:': '',
     'Zoom': '',
     'See <a href="https://www.electronjs.org/docs/latest/api/accelerator">Electron documentation</a> for available modifiers and key codes.': '',
@@ -1489,9 +1463,7 @@ translation_dict = {
     'Duplicate launcher <kbd data-command="duplicateSubtree">': '',
     'Collapse': '',
     'Expand': '',
-    'Do you really want to reset "${this.node.title}"? 
-                       All data / settings in this note (and its children) will be lost 
-                       and the launcher will be returned to its original location.': '',
+    'Do you really want to reset "${this.node.title}"? \n                       All data / settings in this note (and its children) will be lost \n                       and the launcher will be returned to its original location.': '您确定要重置"${this.node.title}"吗? 这个笔记和它的子笔记的所有数据都会丢失, 并且启动器会恢复到它原来的位置.',
     'sort folders at the top': '',
     'Monospace (code) Font': '',
     'Close': '',

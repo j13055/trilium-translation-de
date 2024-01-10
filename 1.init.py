@@ -30,12 +30,12 @@ CMD_STOP_SERVICE = """pkill -9 trilium"""
 
 # 是否从GitHub下载文件
 # whether download files from GitHub
-DO_DOWNLOAD = True
+DO_DOWNLOAD = False
 
 # 是否删除临时文件
 # whether delete template files
-# DO_DELETE = False
-DO_DELETE = True
+DO_DELETE = False
+# DO_DELETE = True
 
 
 def requests_get(url):
@@ -142,14 +142,14 @@ def decompress_source_package(file_name):
 
 
 if __name__ == '__main__':
-    if os.path.exists(BASE_FOLDER):
-        if not (input(f'BASE_FOLDER exists! DELETE {BASE_FOLDER}, continue?(y)')).lower() in [
-            'y',
-            'yes',
-        ]:
-            exit()
-        os.system(f'rm -rf {BASE_FOLDER}')
-    os.makedirs(BASE_FOLDER)
+#    if os.path.exists(BASE_FOLDER):
+#        if not (input(f'BASE_FOLDER exists! DELETE {BASE_FOLDER}, continue?(y)')).lower() in [
+#            'y',
+#            'yes',
+#        ]:
+#            exit()
+#        os.system(f'rm -rf {BASE_FOLDER}')
+#    os.makedirs(BASE_FOLDER)
     print('BASE_FOLDER', BASE_FOLDER)
     os.chdir(BASE_FOLDER)
 
