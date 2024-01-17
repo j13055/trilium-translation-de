@@ -287,7 +287,7 @@ def patch_windows(file_name):
 
     return new_name
 
-'''
+
 def patch_mac(file_name):
     if not file_name.endswith('.zip'):
         print('windows 文件名有问题')
@@ -338,7 +338,7 @@ def patch_mac(file_name):
         os.system('rm -rf trilium-mac-x64')
 
     return new_name
-'''
+
 
 if __name__ == '__main__':
     print(f'DEBUG is {DEBUG}')
