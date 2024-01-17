@@ -287,7 +287,7 @@ def patch_windows(file_name):
 
     return new_name
 
-
+'''
 def patch_mac(file_name):
     if not file_name.endswith('.zip'):
         print('windows 文件名有问题')
@@ -338,7 +338,7 @@ def patch_mac(file_name):
         os.system('rm -rf trilium-mac-x64')
 
     return new_name
-
+'''
 
 if __name__ == '__main__':
     print(f'DEBUG is {DEBUG}')
@@ -373,17 +373,17 @@ if __name__ == '__main__':
     # patch
 
     # linux
-    download_and_patch(releases, 'linux')
+    # download_and_patch(releases, 'linux')
 
     if not DEBUG:
         # linux-server
-        download_and_patch(releases, 'linux-server')
+        # download_and_patch(releases, 'linux-server')
 
         # windows
         download_and_patch(releases, 'windows')
 
         # mac
-        download_and_patch(releases, 'mac')
+        # download_and_patch(releases, 'mac')
 
     os.system(f'xdg-open {TRANS_RELEASE_FOLDER}')
 
