@@ -349,6 +349,8 @@ if __name__ == '__main__':
     ]:
         exit()
 
+
+
 #    os.system(f'rm -rf {TRANS_RELEASE_FOLDER}')
 #    os.makedirs(f'{TRANS_RELEASE_FOLDER}')
     os.chdir(TRANS_RELEASE_FOLDER)
